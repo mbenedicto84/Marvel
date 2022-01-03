@@ -1,0 +1,517 @@
+/* ========================Base Css================== */
+
+body {
+    background-color: black;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+    height: 100%;
+}
+li {
+    color: white:
+}
+h1{
+  margin-top: 40px;
+  font-size: 24px;
+}
+header {
+    background-color: red;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: red;
+}
+#image {
+    margin: 0 auto;
+}
+#image>img {
+    width: 100%;
+}
+.shield {
+    margin: 15px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+.nav2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+ul, li {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
+}
+input {
+    margin: 20px;
+}
+/* ================================================== */
+
+#name {
+    font-size: 2.6em;
+    color: black;
+    font-family: 'Comic Sans', cursive;
+    margin-top: 140px;
+}
+.nav2 {
+    background-color: black;
+}
+.formie {
+    display: flex;
+    justify-content: center;
+}
+.find {
+    display: flex;
+    justify-content: center;
+    width: 87%;
+    margin: 4%;
+}
+.find2 {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+.wallpaper {
+    background-image: url('img/assemble.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ironman {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.made {
+    margin: 20px;
+}
+.info {
+    display: block;
+    margin: 0 auto;
+    width: 80%
+}
+/* ======================== Sections========================= */
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    padding: 30px
+}
+/* ====================Children============================== */
+
+.hulk {
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    min-height: 350px;
+}
+.fluid {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.display {
+    background-image: url('img/explosion.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+    padding: 35px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+.power {
+    margin: 0 auto;
+    margin-top: 160px;
+    padding-right: 35px;
+    width: 300px;
+}
+/* ========================Buttons & Things=============== */
+#bio {
+    font-size: 20px;
+    color: black;
+    font-family: 'Comic Sans', cursive;
+}
+
+#marvelfind {
+    padding: 10px;
+}
+.button {
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#marvelbtn {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+}
+#power {
+    background-color: red;
+    width: 93px;
+    height: 43px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 19px;
+}
+.rotate-center {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+    animation-delay: 3s;
+}
+.panel {
+    background-color: #ffffe6;
+    border: 4px solid black;
+    color: black;
+    font-family: 'Comic Sans', cursive;
+}
+.inner{
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
+  min-height: 620px;
+  padding: 10px;
+  font-size: 25px;
+  background: white;
+  box-shadow: 5px 10px 8px #000;
+
+}
+.bubble {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/bubble.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 175px;
+    color: black;
+    padding: 20px;
+    font-family: 'Comic Sans', cursive;
+}
+.thought {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/thought.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans', cursive;
+}
+.square {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/square.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 175px;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans', cursive;
+}
+h1.bio {
+    color: black;
+    padding: 20px;
+}
+.hawkeye {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    min-height: 350px;
+}
+/* ======================modal=========================== */
+
+#close {
+    color: Red;
+}
+#close2 {
+    color: Red;
+}
+#marvelbtn {
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#openModal {
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px
+}
+#openModal2 {
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+}
+#modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+#modal-textbox {
+    height: 350px;
+    max-width: 550px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+#modal2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+#modal-textbox2 {
+    height: 350px;
+    max-width: 440px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+/* carousel */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.container>img {
+    width: 100%;
+}
+/* ======= CAROUSEL SECTION ======== */
+
+.carousel-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.marvel-images {
+    width: 100%;
+    padding: 100;
+    box-sizing: border-box;
+}
+.marvel-images img {
+    width: 100%;
+    display: none;
+}
+.marvel-images img:first-of-type {
+    display: block;
+}
+.carousel-button {
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.carousel-button:hover {
+    cursor: pointer;
+    color: white;
+}
+/* Responsive layout */
+
+/* responsive (landscape) ----------- */
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        font-size: 3vw
+    }
+    .thought {
+        display: flex;
+        justify-content: center;
+        background-image: url(img/thought.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 232px;
+        color: black;
+        padding: 20px;
+    }
+    #marvelfind {
+        padding: 10px;
+        font-size: 2vw;
+    }
+    #marvelbtn {
+        background-color: red;
+        width: 150px;
+        height: 50px;
+        font-family: 'Marvel', sans-serif;
+        color: white;
+        font-size: 20px;
+        border: none;
+        padding: 10px;
+    }
+    .hulk {
+        text-align: center;
+        padding: 30px;
+        width: 450px;
+        min-height: 350px;
+        font-size: 25px;
+    }
+    #bio {
+        font-size: 36px;
+        color: black;
+        font-family: 'Comic Sans', cursive;
+    }
+    #openModal {
+        background-color: red;
+        width: 150px;
+        height: 50px;
+        font-family: 'Marvel', sans-serif;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin-top: 20px
+    }
+    #modal-textbox {
+        height: 350px;
+        max-width: 550px;
+        border-radius: 2px;
+        margin: 150px auto;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        font-size: 24px;
+    }
+    #modal-textbox2 {
+        height: 350px;
+        max-width: 550px;
+        border-radius: 2px;
+        margin: 150px auto;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        font-size: 24px;
+    }
+    .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin-bottom: 200px;
+        padding: 30px
+    }
+    .section2 {
+        display: flex;
+        justify-content: center;
+    }
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin-bottom: 200px;
+        padding: 30px
+    }
+}
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
